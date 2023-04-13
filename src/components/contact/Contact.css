@@ -1,0 +1,40 @@
+#contact {
+	background-color: var(--dark);
+	margin-bottom: 0;
+}
+
+#contact .section-title {
+	color: white;
+}
+
+.contact-form {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	align-items: center;
+}
+
+#contact form input {
+	height: 30px;
+}
+
+#contact form input,
+#contact form textarea {
+	border: none;
+	outline: none;
+	margin-bottom: 15px;
+	padding: 5px;
+	width: 90%;
+	background-color: var(--body);
+	color: white;
+	border-radius: 5px;
+}
+
+#contact form input::placeholder,
+#contact form textarea::placeholder {
+	color: rgb(210, 210, 210);
+}
+
+#contact form textarea {
+	font-size: 16px;
+}

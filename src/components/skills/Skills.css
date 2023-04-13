@@ -1,0 +1,11 @@
+#skills {
+	background-color: var(--dark);
+}
+
+#skills .section-title {
+	color: white;
+}
+
+#skills .container {
+	max-width: 1000px;
+}
